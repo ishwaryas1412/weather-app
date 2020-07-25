@@ -120,7 +120,7 @@ class weather():
     
 
 
-#function to display initial headings            
+#function to display initial headings and title            
     def initialData(self):                                                      
         self.canvas1.create_text(210,55,text=self.label.get().upper(),font="ComicSansMS 25 bold",fill='#561210')
         self.canvas1.create_text(90,150,text="Temperature:",font="Calibri 14 bold",fill='#561210')
